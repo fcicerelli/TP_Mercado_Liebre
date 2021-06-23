@@ -1,0 +1,88 @@
+:root {
+    /* COLORES */
+    --color-amarillo : #EAC926;
+    --color-azul : #03264C;
+    --color-celeste : #1259c3;
+    --color-GrisOscuro : #666;
+    --color-GrisClaro : #ebebeb;
+    --color-Verde : #39b54a;
+    
+    /* FUENTES */
+    --font-roboto : 'Roboto', sans-serif;
+    
+    /* tamaños de fuentes */
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+    --discounts-descriptions : 16px;
+    
+}
+
+/* GENERAL */
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color : black;
+    text-decoration: none;
+}
+body {
+    font-family: var(--font-roboto);
+}
+
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color : var(--color-amarillo);
+    font-size: var(--paragraph);
+}
+
+/**************
+// HEADER
+//*************/
+
+header .logo {
+    width : 130px;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+header .burger-menu {
+    background-color: var(--color-celeste);
+    border-color: var(--color-celeste);
+    display: inline-block;
+    padding: 7px;
+    width: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-bottom: 20px; 
+    /*margin: 20px auto;*/
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+i {
+    margin-left: 2px;
+}
+
+#top-list {
+    margin-bottom: 10px;
+}
