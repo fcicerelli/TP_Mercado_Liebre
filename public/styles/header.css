@@ -1,0 +1,76 @@
+/**************
+// HEADER
+//*************/
+
+
+header {
+    background-color : var(--color-amarillo);
+    font-size: var(--paragraph);
+}
+
+header .logo {
+    width : 130px;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+header .burger-menu {
+    background-color: var(--color-celeste);
+    border-color: var(--color-celeste);
+    display: inline-block;
+    padding: 7px;
+    width: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-bottom: 20px; 
+    text-align: center;
+    /*margin: 20px auto;*/
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Main */
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav {
+    display: none;
+}
+
+i {
+    margin-left: 2px;
+}
+
+#top-list {
+    margin-bottom: 10px;
+}
+
+/* Search Bar*/
+.search-bar {
+    display: inline-block;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (min-width: 361px) {
+    nav {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+/* Desktop*/
+@media (min-width: 769px){
+
+}
